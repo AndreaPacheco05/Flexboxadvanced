@@ -1,0 +1,114 @@
+body{
+    font-family: Roboto, sans-serif;
+    flex-wrap: wrap;
+}
+.container{
+    display: flex;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    border: solid 2px rgb(224, 223, 223);
+}
+
+i{
+    color: rgb(163, 161, 161);
+}
+
+.icon{
+    padding-left: 35px;
+}
+
+.icon2{
+    padding-left: 8px;
+}
+
+.fa-2x{
+    margin-top: 15px;
+}
+
+.person{
+    margin-top: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-grow: 5em;
+    gap: 5px;
+    height: 80px;
+    width: 290px;
+    border-bottom: solid 2px rgb(224, 223, 223);
+}
+
+.person img{
+    width: 60px;
+    height: 60px;
+    margin-top: 5px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.contact-name{
+    margin-top: 13px;
+    font-size: 20px; 
+}
+
+.contact-namemaria{
+    font-size: 20px;
+    margin-top: 14px;
+}
+
+.messagemaria{
+    font-size: 13px;
+    color: rgb(122, 122, 122);
+}
+
+.message{
+    font-size: 15px; 
+}
+
+.button{
+    border-bottom: solid 2px rgb(224, 223, 223);
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    background-color: #a49ad2;
+    border: none;
+    color: white;
+    padding: 15px;
+    padding-left: 55px;
+    padding-right: 55px;
+    margin: 40px;
+    font-size: 18px;
+}
+
+.chat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.chat img{
+    width: 350px;
+}
+
+.chath1{
+    text-align: center;
+    font-size: 50px;
+    font-family:'Gill Sans MT', sans-serif ;
+    margin-top: 20px;
+}
+
+.chatp{
+    text-align: center;
+    padding: 0;
+    margin-top: 5px;
+    margin-left: 550px;
+    margin-right: 550px;
+    flex-grow: 0.1;
+}
